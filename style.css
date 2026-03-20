@@ -5,11 +5,20 @@
         color: rgb(0, 0, 0);
         font-size: 50px;
         font-family: verdana;
+        text-align: center;
+        text-decoration: black wavy underline;
+    }
+    h2{
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        font-family: verdana;
+        text-decoration: black underline;
+        text-align: center;
     }
     p{
         color: rgb(0, 0, 0);
-        font-size: 20px;
-        font-family: verdana;
+        font-size: 25px;
+        text-align: center;
     }
     button{
         background-color: rgb(255, 255, 255);
@@ -19,15 +28,30 @@
         border: 2px solid rgb(0, 0, 0);
         padding: 5px 10px;
         cursor: pointer;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     img{
         width: 200px;
         height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
     }
     input{
         background-color: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
         font-size: 15px;
         border: 2px solid rgb(0, 0, 0);
-        padding: 5px 5px;
+        padding: 5px;
+        border-radius: 5px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    mark{
+        background-color: rgba(0, 0, 0, 0.686);
+        color: rgb(255, 255, 255);
     }
